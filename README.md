@@ -6,6 +6,6 @@ Table like spreadsheet with tips for CSS. Created with grid while practising sty
 To see as website and one click copy feature on cards.
 Suitable to use on phones and tablets.
 ## Screenshot
-![MyScreenshot](CSS_mini_Cheatsheet/Images/miniChallenge.png)
+! [MyScreenshot](CSS_mini_Cheatsheet/Images/miniChallenge.png)
 ## Credits
 Coded by myself(FranAli) instructions and design template provided by BootCamp.
