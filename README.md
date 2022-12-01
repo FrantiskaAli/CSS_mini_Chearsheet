@@ -1,4 +1,4 @@
-# CSS_mini_Chearsheet
+# CSS_mini_Cheatsheet
 Small challenge in class, keeping track of interesting CSS features
 ## Description
 Table like spreadsheet with tips for CSS. Created with grid while practising styling options in CSS.

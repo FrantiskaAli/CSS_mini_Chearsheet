@@ -1,0 +1,111 @@
+*{
+    background-color: rgb(238, 236, 132);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:root {
+    --theme: rgb(9, 73, 9);
+    --neon: rgb(0, 255, 0);
+}
+header {
+    text-align: center;
+    color: var(--theme);
+    padding-bottom: 5%;
+    padding-top: 1%;
+}
+h1 {
+    font-size: 60px;
+}
+header p{
+    color: rgb(37, 182, 93);
+    font-size: 20px;
+}
+#grid-container-main {
+    display: grid;
+    height: fit-content;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: fit-content fit-content;
+   
+}
+.box {
+    border: 2px dotted;
+    margin: 2%;
+    color: black;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 8%;
+}
+.box:hover {
+    border-color: var(--theme);
+    box-shadow: 10px rgb(109, 185, 90);
+    box-shadow: inset 0px 0px 8px var(--neon), 0 0 15px var(--neon);
+}
+
+.box p {
+    color: var(--theme);
+    text-align: center;
+    padding: 0%;
+    margin: 5%;
+
+    
+}
+.card {
+    background-image: linear-gradient(180deg, var(--theme), rgb(88, 151, 80));
+    align-self: center;
+    margin: 5%;
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    size: 80%;
+    padding: 5%;
+    -webkit-touch-callout: all; /* iOS Safari */
+    -webkit-user-select: all; /* Safari */
+    -khtml-user-select: all; /* Konqueror HTML */
+    -moz-user-select: all; /* Firefox */
+    -ms-user-select: all; /* Internet Explorer/Edge */
+    user-select: all; /* Chrome and Opera */
+
+}
+.card-header {
+    border: 2px solid;
+    padding: 10px;
+    text-align: center;
+    width: 70%;
+    position: relative;
+    margin-top: -5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+.card-header:hover {
+    border-color: var(--theme);
+    box-shadow: inset 0px 0px 8px var(--neon), 0 0 15px var(--neon);
+}
+.card-header h2{
+    color: var(--theme);
+}
+footer{
+    text-align: center;
+}
+/*tablet view*/
+@media (max-width: 900px) {
+    #grid-container-main {
+        display: grid;
+        height: fit-content;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: fit-content fit-content fit-content;
+       
+    }
+    
+}
+/*mobile view*/
+@media (max-width: 550px){
+    #grid-container-main {
+        display: grid;
+        height: fit-content;
+        grid-template-columns: 1fr;
+        grid-template-rows: fit-content fit-content fit-content fit-content fit-content fit-content;
+       
+    }
+}
+
